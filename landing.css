@@ -1,0 +1,52 @@
+h1,h3 {
+    color: white;
+    text-align: center;
+}
+.playwrite-font {
+  font-family: "Playwrite DE LA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.century-schoolbook-font{
+    font-family: 'Century Schoolbook', sans-serif;
+    font-weight: bold;
+    text-transform:none;
+}
+body {
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/076/114/995/medium/megan-otton-asset.jpg?1716225077);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.custom-button {
+    background-color: white;
+    color: black;
+    padding: 10px 30px; 
+    border: none; 
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.custom-button:hover {
+    background-color: rgb(202, 194, 194);
+}
+.box-colour-and-opacity{
+    color: black;
+}
+#transparent-background
+{ 
+	text-align: center; 
+    align-items: center;
+    word-wrap: break-word;
+	padding: 150px 20px 70px; 
+    opacity: 100%;
+    background-color: rgb(0 0 0 / .5);
+}
+#button-opacity{
+background-color: white;
+border-radius: 20px;
+border-style: none;
+}
